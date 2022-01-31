@@ -1,0 +1,14 @@
+class Currency {
+
+	function int toUsd(int x){
+		var int y;
+		let y = x / 209;
+		return y;
+	}
+
+	function int toGyd(int x){
+		var int y;
+		let y = x * 209;
+		return y;
+	}
+}

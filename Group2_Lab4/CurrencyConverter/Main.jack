@@ -1,0 +1,16 @@
+class Main {
+
+	function void main(){
+		var int x;
+		var int converted;
+
+		let x = Keyboard.readInt("Enter amount to convert (GYD): ");
+
+		let converted = Currency.toUsd(x);
+
+		do Output.printString("Converted amount: ");
+		do Output.printInt(converted);
+
+		return;
+	}
+}
