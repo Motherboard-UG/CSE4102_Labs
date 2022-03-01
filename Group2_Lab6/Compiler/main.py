@@ -2,7 +2,6 @@ import sys
 import os
 import glob
 import errno
-import Tokenizer
 import CompilationEngine
 
 def main():
